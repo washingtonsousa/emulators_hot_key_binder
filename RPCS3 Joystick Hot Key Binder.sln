@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmulatorsJoystickHotKeyBinder", "RPCS3 Joystick Hot Key Binder\EmulatorsJoystickHotKeyBinder.csproj", "{E31A8CD3-6702-438B-8F5D-2EA1C7A0B21B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E31A8CD3-6702-438B-8F5D-2EA1C7A0B21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31A8CD3-6702-438B-8F5D-2EA1C7A0B21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31A8CD3-6702-438B-8F5D-2EA1C7A0B21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31A8CD3-6702-438B-8F5D-2EA1C7A0B21B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {041D435C-5297-469F-BCA0-46AE89916137}
+	EndGlobalSection
+EndGlobal

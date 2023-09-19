@@ -1,0 +1,28 @@
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3_Joystick_Hot_Key_Binder.Form1.resources
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.csproj.GenerateResource.cache
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.AssemblyInfoInputs.cache
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.AssemblyInfo.cs
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.csproj.CoreCompileInputs.cache
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.exe
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.deps.json
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.runtimeconfig.json
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.pdb
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\refint\RPCS3 Joystick Hot Key Binder.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.pdb
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.genruntimeconfig.cache
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\ref\RPCS3 Joystick Hot Key Binder.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\launch.bat
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\System.Management.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.csproj.AssemblyReference.cache
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\RPCS3 Joystick Hot Key Binder.csproj.CopyComplete
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\SharpDX.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\SharpDX.DirectInput.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\SharpDX.XInput.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\DXNET.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\DXNET.XInput.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll

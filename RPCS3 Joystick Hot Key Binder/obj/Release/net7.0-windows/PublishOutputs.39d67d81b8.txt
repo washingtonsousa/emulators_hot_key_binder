@@ -1,0 +1,15 @@
+O:\Games\RetroArch\system\rpcs3\launch.bat
+O:\Games\RetroArch\system\rpcs3\RPCS3JoystickHotKeyBinder.exe
+O:\Games\RetroArch\system\rpcs3\RPCS3JoystickHotKeyBinder.dll
+O:\Games\RetroArch\system\rpcs3\RPCS3JoystickHotKeyBinder.deps.json
+O:\Games\RetroArch\system\rpcs3\RPCS3JoystickHotKeyBinder.runtimeconfig.json
+O:\Games\RetroArch\system\rpcs3\RPCS3JoystickHotKeyBinder.pdb
+O:\Games\RetroArch\system\rpcs3\DXNET.dll
+O:\Games\RetroArch\system\rpcs3\DXNET.XInput.dll
+O:\Games\RetroArch\system\rpcs3\Microsoft.Extensions.DependencyInjection.dll
+O:\Games\RetroArch\system\rpcs3\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+O:\Games\RetroArch\system\rpcs3\SharpDX.dll
+O:\Games\RetroArch\system\rpcs3\SharpDX.DirectInput.dll
+O:\Games\RetroArch\system\rpcs3\SharpDX.XInput.dll
+O:\Games\RetroArch\system\rpcs3\System.Management.dll
+O:\Games\RetroArch\system\rpcs3\runtimes\win\lib\net7.0\System.Management.dll

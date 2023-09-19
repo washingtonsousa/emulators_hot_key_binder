@@ -1,0 +1,1 @@
+O:\Emuladores\rpcs3\rpcs3.exe

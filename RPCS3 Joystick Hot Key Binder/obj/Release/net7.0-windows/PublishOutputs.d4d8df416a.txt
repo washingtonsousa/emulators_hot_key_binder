@@ -1,0 +1,15 @@
+O:\Emuladores\rpcs3\launch.bat
+O:\Emuladores\rpcs3\RPCS3 Joystick Hot Key Binder.exe
+O:\Emuladores\rpcs3\RPCS3 Joystick Hot Key Binder.dll
+O:\Emuladores\rpcs3\RPCS3 Joystick Hot Key Binder.deps.json
+O:\Emuladores\rpcs3\RPCS3 Joystick Hot Key Binder.runtimeconfig.json
+O:\Emuladores\rpcs3\RPCS3 Joystick Hot Key Binder.pdb
+O:\Emuladores\rpcs3\DXNET.dll
+O:\Emuladores\rpcs3\DXNET.XInput.dll
+O:\Emuladores\rpcs3\Microsoft.Extensions.DependencyInjection.dll
+O:\Emuladores\rpcs3\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+O:\Emuladores\rpcs3\SharpDX.dll
+O:\Emuladores\rpcs3\SharpDX.DirectInput.dll
+O:\Emuladores\rpcs3\SharpDX.XInput.dll
+O:\Emuladores\rpcs3\System.Management.dll
+O:\Emuladores\rpcs3\runtimes\win\lib\net7.0\System.Management.dll
