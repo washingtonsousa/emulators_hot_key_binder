@@ -11,10 +11,8 @@ namespace EmulatorsJoystickHotKeyBinder.Core.Domain
     public interface IEmulatorService
     {
         public Process[] Processes { get; }
-
-        Task Start();
         Task Stop();
-        Task WatchProcess();
+        Task WatchProcess(CancellationToken stoppingToken);
     }
 
     public class EmulatorService : IEmulatorService
@@ -22,36 +20,17 @@ namespace EmulatorsJoystickHotKeyBinder.Core.Domain
         public Process[] Processes { get; private set; }
 
 
-        public async Task  WatchProcess()
+        public async Task  WatchProcess(CancellationToken cancellationToken)
         {
 
-            while (true)
+            while (!cancellationToken.IsCancellationRequested)
             {
                 var allProcess = Process.GetProcesses();
                 Processes = Process.GetProcesses().Where(e => e.ProcessName.Contains("rpcs3") || e.ProcessName.Contains("yuzu") || e.ProcessName.Contains("Dolphin")).ToArray();
-            }
 
-        }
-
-        public async Task Start() {
-
-            try
-            {
-                
-
-                Task.Run(() => WatchProcess());
-
+                Thread.Sleep(3000);
 
             }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.Message);
-
-
-            }
-
-
 
         }
 

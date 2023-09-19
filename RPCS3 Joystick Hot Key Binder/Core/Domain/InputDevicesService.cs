@@ -22,20 +22,6 @@ namespace EmulatorsJoystickHotKeyBinder.Core.Domain
             ServiceProvider = serviceProvider;
         }
 
-        private static async Task TriggerStateDInput(Joystick joystick)
-        {
-
-            while (joystick != null)
-            {
-
-                var state = joystick.GetCurrentState();
-
-
-
-            }
-
-        }
-
         private List<Controller> GetControllerList()
         {
             var directInput = new DirectInput();
@@ -46,17 +32,6 @@ namespace EmulatorsJoystickHotKeyBinder.Core.Domain
             return Controllers;
         }
 
-
-        private async Task PersistControllers()
-        {
-            while (true)
-            {
-                GetControllerList();
-                Task.Delay(1000);
-            }
-        }
-
-
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
 
@@ -66,53 +41,44 @@ namespace EmulatorsJoystickHotKeyBinder.Core.Domain
 
             IEmulatorService EmulatorService = (IEmulatorService)scope.ServiceProvider.GetService(typeof(IEmulatorService));
 
-            Task.Run(PersistControllers);
-
-            Task.Factory.StartNew(() =>
-            {
-                EmulatorService.WatchProcess();
-
-            });
-
+            Task.Factory.StartNew(() => EmulatorService.WatchProcess(stoppingToken));
 
             while (!stoppingToken.IsCancellationRequested)
             {
-
-                var controllers = GetControllerList();
-
-                bool hasAnyConected = controllers.Any(ctrl => ctrl.IsConnected);
+                Controllers = GetControllerList();
+                bool hasAnyConected = Controllers.Any(ctrl => ctrl.IsConnected);
 
                 if (hasAnyConected)
-                    foreach (var selectControler in controllers)
+                    foreach (var selectControler in Controllers)
                     {
 
+
                         if (selectControler.IsConnected)
-                            Task.Run(() =>
+                        {
+
+                            try
                             {
-                                while (selectControler.IsConnected)
-                                {
+                                var previousState = selectControler.GetState();
 
-                                    try
-                                    {
-                                        var previousState = selectControler.GetState();
+                                var state = selectControler.GetState();
+                                if (state.Gamepad.Buttons.HasFlag(GamepadButtonFlags.Back) && state.Gamepad.Buttons.HasFlag(GamepadButtonFlags.B))
+                                    EmulatorService.Stop();
 
-                                        var state = selectControler.GetState();
-                                        if (state.Gamepad.Buttons.HasFlag(GamepadButtonFlags.Back) && state.Gamepad.Buttons.HasFlag(GamepadButtonFlags.B))
-                                            EmulatorService.Stop();
+                                previousState = state;
+                            }
+                            catch (Exception ex)
+                            {
 
-                                        previousState = state;
-                                    }
-                                    catch (Exception ex)
-                                    {
-
-                                    }
+                            }
 
 
 
-                                }
+                        }
 
-                            });
                     }
+
+
+                Thread.Sleep(3000);
 
 
 

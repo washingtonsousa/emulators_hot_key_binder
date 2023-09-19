@@ -64,22 +64,24 @@ namespace EmulatorsJoystickHotKeyBinder
 
                 Tmr = new System.Threading.Timer(new System.Threading.TimerCallback(Tmr_Tick), mbx, 3000, 0);
                 mbx.ShowDialog();
+
+
+
+
                 return;
 
             }
             else
             {
-
-
-
-
-                Task.Factory.StartNew(() => { Application.Run(new Form1()); });
-
                 var hb = CreateHostBuilder();
 
                 var host = hb.Build();
 
                 host.Run();
+
+                Application.Run(new Form1());
+
+               
 
             }
 

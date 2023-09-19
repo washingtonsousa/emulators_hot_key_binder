@@ -25,14 +25,6 @@ namespace EmulatorsJoystickHotKeyBinder
         IEmulatorService _emulatorService;
         IServiceProvider _serviceProvider;
 
-        private void OpenEmulator(object sender, EventArgs e)
-        {
-            _emulatorService = _serviceProvider.GetService<IEmulatorService>();
-
-            _emulatorService.Start();
-
-
-        }
 
         private void CloseEmulator(object sender, EventArgs e)
         {
