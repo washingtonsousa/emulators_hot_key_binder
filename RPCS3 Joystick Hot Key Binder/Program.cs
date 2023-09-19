@@ -73,13 +73,35 @@ namespace EmulatorsJoystickHotKeyBinder
             }
             else
             {
+
+                var form = new Form1();
+
                 var hb = CreateHostBuilder();
 
                 var host = hb.Build();
 
-                host.Run();
+                Task.Factory.StartNew(() =>
+                {
 
-                Application.Run(new Form1());
+                    host.Run();
+
+                });
+
+
+                form.FormClosed += (object? sender, FormClosedEventArgs e) =>
+                {
+                    host.StopAsync();
+
+                };
+
+
+                
+                    Application.Run(form);
+
+          
+
+               
+
 
                
 
