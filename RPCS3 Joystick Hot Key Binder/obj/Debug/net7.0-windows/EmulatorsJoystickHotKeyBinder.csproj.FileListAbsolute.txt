@@ -49,3 +49,4 @@ C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick
 C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\EmulatorsJoystickHotKeyBinder.pdb
 C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\EmulatorsJoystickHotKeyBinder.genruntimeconfig.cache
 C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\obj\Debug\net7.0-windows\ref\EmulatorsJoystickHotKeyBinder.dll
+C:\Users\Washington Meneses\Desktop\RPCS3 Joystick Hot Key Binder\RPCS3 Joystick Hot Key Binder\bin\Debug\net7.0-windows\appsettings.json

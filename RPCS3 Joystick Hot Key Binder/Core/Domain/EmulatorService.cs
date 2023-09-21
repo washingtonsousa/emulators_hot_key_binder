@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -19,14 +20,24 @@ namespace EmulatorsJoystickHotKeyBinder.Core.Domain
     {
         public Process[] Processes { get; private set; }
 
+        public IConfiguration Configuration { get; private set; }
+
+        public EmulatorService(IConfiguration? configuration)
+        {
+            Configuration = configuration;
+        }
+
 
         public async Task  WatchProcess(CancellationToken cancellationToken)
         {
+            IList<string> args = new List<string>();
+
+            args  =  Configuration.GetSection("EmulatorsProcessNames").Get<IList<string>>();
 
             while (!cancellationToken.IsCancellationRequested)
             {
                 var allProcess = Process.GetProcesses();
-                Processes = Process.GetProcesses().Where(e => e.ProcessName.Contains("rpcs3") || e.ProcessName.Contains("yuzu") || e.ProcessName.Contains("Dolphin")).ToArray();
+                Processes = Process.GetProcesses().Where(e => args.Any(proc =>  e.ProcessName.Contains(proc))).ToArray();
 
                 Thread.Sleep(3000);
 

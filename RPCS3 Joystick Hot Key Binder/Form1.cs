@@ -3,6 +3,7 @@ using EmulatorsJoystickHotKeyBinder.Core.Domain;
 using EmulatorsJoystickHotKeyBinder.Core.Domain.Models;
 using System;
 using System.ServiceProcess;
+using Microsoft.Extensions.Configuration;
 
 namespace EmulatorsJoystickHotKeyBinder
 {
@@ -11,10 +12,13 @@ namespace EmulatorsJoystickHotKeyBinder
         public Form1()
         {
             InitializeComponent();
-
             ServiceCollection services = new ServiceCollection();
 
-            services.AddSingleton<IEmulatorService>(new EmulatorService());
+            var settings = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
+                   .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true).Build();
+            services.AddSingleton<IConfiguration>(settings);
+
+            services.AddSingleton<IEmulatorService, EmulatorService>();
 
             _serviceProvider = services.BuildServiceProvider();
 
