@@ -1,4 +1,5 @@
 O:\Playnite\Helpers\launch.bat
+O:\Playnite\Helpers\appsettings.json
 O:\Playnite\Helpers\EmulatorsJoystickHotKeyBinder.exe
 O:\Playnite\Helpers\EmulatorsJoystickHotKeyBinder.dll
 O:\Playnite\Helpers\EmulatorsJoystickHotKeyBinder.deps.json
